@@ -14,3 +14,7 @@ After launch:
 ==============
 * index.html: remove NOINDEX, NOFOLLOW
 * robots.txt: remove disallow /
+
+TODO:
+==============
+* Actually, it works, if I add in /public/index.html! (Fix this!)
