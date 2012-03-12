@@ -1,5 +1,7 @@
 Initial Steps:
 =============
+* run:
+    heroku create --stack cedar
 * Add title
 * Adjust humans.txt
 
