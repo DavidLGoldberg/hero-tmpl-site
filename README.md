@@ -1,4 +1,4 @@
-Steps:
+Initial Steps:
 =============
 * Add title
 * Adjust humans.txt
