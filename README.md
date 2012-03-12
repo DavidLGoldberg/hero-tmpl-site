@@ -2,6 +2,8 @@ Initial Steps:
 =============
 * ensure:
     sudo apt-get install python-dev libevent-dev
+* ensure:
+    sudo gem install watchr
 * run:
     heroku create --stack cedar
 * run:
