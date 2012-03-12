@@ -1,5 +1,7 @@
 Initial Steps:
 =============
+* ensure:
+    sudo apt-get install python-dev libevent-dev
 * run:
     heroku create --stack cedar
 * run:
