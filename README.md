@@ -2,6 +2,8 @@ Initial Steps:
 =============
 * run:
     heroku create --stack cedar
+* run:
+    heroku scale web=1
 * Add title
 * Adjust humans.txt
 
