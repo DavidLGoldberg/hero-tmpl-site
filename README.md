@@ -17,4 +17,4 @@ After launch:
 
 TODO:
 ==============
-* Actually, it works, if I add in /public/index.html! (Fix this!)
+* Fix baseurl to not redirect to index.html
