@@ -21,4 +21,4 @@ After launch:
 
 TODO:
 ==============
-* Fix baseurl to not redirect to index.html
+* get 404.html working
