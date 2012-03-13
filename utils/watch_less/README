@@ -1,4 +1,0 @@
-Code from:
-http://www.ravelrumba.com/blog/watch-compile-less-command-line/
-
-make sure watch_less.bash is chmod u+x and move it to /usr/local/bin
