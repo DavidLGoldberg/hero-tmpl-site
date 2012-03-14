@@ -19,6 +19,10 @@ app.wsgi_app = SharedDataMiddleware(app.wsgi_app,
 
 #Routes:
 #====================================
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
 @app.route('/')
 def index():
     return render_template('index')
