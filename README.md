@@ -23,4 +23,7 @@ After launch:
 
 TODO:
 ==============
-* get 404.html working
+* make a few things configurable:
+    - title
+    - default author
+    - contact us address
