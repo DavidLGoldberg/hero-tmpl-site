@@ -8,7 +8,11 @@ app = Flask(__name__,
             static_folder=os.path.join(PROJECT_ROOT, 'public'),
             static_url_path='/public')
 
-app.config.from_pyfile('config.py')
+try:
+	import local_config
+	app.config.from_pyfile('local_config.py')
+except ImportError:
+	pass
 
 app.wsgi_app = SharedDataMiddleware(app.wsgi_app, 
     {'/': os.path.join(os.path.dirname(__file__), 'public') })
