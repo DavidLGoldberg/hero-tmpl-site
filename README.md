@@ -6,6 +6,8 @@ Initial Steps:
     sudo apt-get install lessc
 * ensure:
     sudo gem install watchr
+* optional:
+    local environment contains a local_config.py with "DEBUG=True"
 * run:
     heroku create --stack cedar
 * run:
