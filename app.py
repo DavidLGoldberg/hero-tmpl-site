@@ -25,11 +25,11 @@ def page_not_found(e):
 
 @app.route('/')
 def index():
-    return render_template('index')
+    return render_template('index.html')
 
 @app.route('/about')
 def about():
-    return render_template('about')
+    return render_template('about.html')
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
