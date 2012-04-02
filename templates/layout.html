@@ -8,7 +8,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 
-  <title></title>
+  <title>
+    {% if not title %}
+      {{ config['PROJECT_NAME'] }}
+    {% else %}
+      {{ title }} | {{ config['PROJECT_DOMAIN'] }}
+    {% endif %}
+  </title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link type="text/plain" rel="author" href="humans.txt" />
