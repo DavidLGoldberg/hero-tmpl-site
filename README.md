@@ -1,17 +1,23 @@
 Initial Steps:
 =============
 * ensure:
-    sudo apt-get install python-dev libevent-dev
-* ensure:
-    sudo apt-get install lessc
+    sudo apt-get install python-dev libevent-dev lessc
 * ensure:
     sudo gem install watchr
-* optional:
-    local environment contains a local_config.py with "DEBUG=True"
+* ensure:
+    heroku plugins:install git://github.com/ddollar/heroku-config.git
 * run:
     heroku create --stack cedar
 * run:
     heroku scale web=1
+* run:
+    cp ./sample_env ./.env
+* run:
+    heroku config:push --overwrite --interactive
+* run:
+    heroku config
+* verify:
+    all config values are as desired for production
 * Add title
 * Adjust humans.txt
 
