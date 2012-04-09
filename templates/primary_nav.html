@@ -11,7 +11,8 @@
         <ul class="nav">
           {% set navigation = [
             ('/', 'Home'),
-            ('/about', 'About') ] %}
+            ('/about', 'About'),
+            ('http://github.com/DavidLGoldberg/hero-tmpl', 'Download') ] %}
 
           {% for href, caption in navigation  %}
             <li {{ ('class="active"' if primary_nav == caption)|safe }}>
