@@ -1,3 +1,5 @@
 X_HT_DEBUG=True
 X_HT_PROJECT_NAME=hero-tmpl
 X_HT_PROJECT_DOMAIN=hero-tmpl.com
+X_HT_PROJECT_DESCRIPTION=A simple project to fork and deploy.
+X_HT_PROJECT_AUTHOR=David L. Goldberg

@@ -18,9 +18,8 @@ Initial Steps:
     heroku config
 * verify:
     all config values are as desired for production
-* Add title
+* Add titles
 * Adjust humans.txt
-
 
 After launch:
 ==============
@@ -30,6 +29,4 @@ After launch:
 TODO:
 ==============
 * make a few things configurable:
-    - title
-    - default author
     - contact us address

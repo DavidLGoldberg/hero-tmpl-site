@@ -3,10 +3,9 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Lead Developer: David L. Goldberg
+  Site: http://hero-tmpl.com
+  Location: New York, NY
 
 /* THANKS */
   Names (& URL):
@@ -17,3 +16,7 @@
   Layout: http://twitter.github.com/bootstrap/
   Icons: http://glyphicons.com
   Software:
+    http://www.heroku.com
+    http://flask.pocoo.org
+    http://jinja.pocoo.org/docs
+    http://html5boilerplate.com
