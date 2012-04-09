@@ -9,10 +9,10 @@
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 
   <title>
-    {% if not title %}
-      {{ config['X_HT_PROJECT_NAME'] }}
-    {% else %}
+    {% if title %}
       {{ title }} | {{ config['X_HT_PROJECT_DOMAIN'] }}
+    {% else %}
+      {{ config['X_HT_PROJECT_NAME'] }}
     {% endif %}
   </title>
   <meta name="description" content="">
