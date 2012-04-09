@@ -2,3 +2,4 @@ venv
 *.py[co]
 local_config.py
 sftp-config.json
+.env
