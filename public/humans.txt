@@ -3,9 +3,9 @@
 
 
 /* TEAM */
-  Lead Developer: David L. Goldberg
-  Site: http://hero-tmpl.com
-  Location: New York, NY
+  Lead Developer:
+  Site:
+  Location:
 
 /* THANKS */
   Names (& URL):
